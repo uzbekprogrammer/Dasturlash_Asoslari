@@ -11,9 +11,8 @@ b=a//2;#Sonni yarmini topib olamiz
 i=2;
 q=0;
 while (i<=b) and (q!=1):
-    s=a%i
     i=i+1
-    if s==0 :
+    if a%i==0 :
         q=1;
 if (a==2) or (a==3):
     print("Bu son tub")
